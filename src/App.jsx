@@ -5,11 +5,13 @@ import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Projects } from "./pages/Projects";
 import { Resume } from "./pages/Resume";
+import ParticleBackground from "./components/Particles";
 import "./index.css";
 
 function App() {
   return (
     <Router>
+      <ParticleBackground />
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
