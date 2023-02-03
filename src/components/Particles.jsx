@@ -1,4 +1,4 @@
-import ParticlesConfig from "./ParticlesConfig";
+import ParticlesConfig from "../assets/javascript/ParticlesConfig";
 import { useCallback } from "react";
 import { loadFull } from "tsparticles";
 import Particles from "react-particles";
